@@ -1,6 +1,7 @@
 #googleMap {
     height: 100%;
-    width: 100%;
+    width: 85% !important;
+    margin: 0 auto;
 }
 
 html, body {
@@ -10,6 +11,20 @@ html, body {
     padding: 0;
 }
 
+#header {
+    width: 85%;
+    height: 110px;
+    margin: 0 auto;
+    background-color: #629393;
+    margin-bottom: 20px;
+}
+
 h1 {
+    text-align: center;
     margin: 20px auto;
+    padding-top: 10px;
+}
+
+.latlong {
+    text-align: center;
 }
