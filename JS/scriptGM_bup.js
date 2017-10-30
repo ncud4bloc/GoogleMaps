@@ -1,3 +1,6 @@
+var latitude;
+var longitude;
+
 $(function(){
 
     function myMap() {
@@ -6,9 +9,8 @@ $(function(){
     } 
   
     $(".button").on("click",function(event){
-        var latitude = $('#latitude').val();
-        var longitude = $('#longitude').val();
-        mapProp= {center:new google.maps.LatLng(latitude,longitude),zoom:10,};
-        map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        latitude = $('#latitude').val();
+        longitude = $('#longitude').val();
+        console.log('Latitude: '+latitude+', Longitude: '+longitude);
     }); 
 });
