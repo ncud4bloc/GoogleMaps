@@ -6,6 +6,7 @@ $(function(){
     $(".button").on("click",function(event){
         var latitude = $('#latitude').val();
         var longitude = $('#longitude').val();
+        var message = $('#message').val();
         mapProp= {center:new google.maps.LatLng(latitude,longitude),zoom:10,};
         map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
         
@@ -14,7 +15,7 @@ $(function(){
           animation: google.maps.Animation.DROP,
           position: new google.maps.LatLng(latitude,longitude),
           map: map,
-          title: 'Here it is!'
+          title: message
         });
         marker.addListener('click', toggleBounce);
         
