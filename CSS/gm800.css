@@ -1,0 +1,25 @@
+#header {
+    height: 200px;
+}
+
+.formbox {
+    width: 350px;
+}
+
+#longPar, #messPar {
+    clear:left;
+}
+
+#latitude {
+    width: 100px;
+    margin-left: 14px;
+}
+
+#longitude {
+    width: 100px;
+}
+
+#message {
+    width: 100px;
+    margin-left: 5px;
+}

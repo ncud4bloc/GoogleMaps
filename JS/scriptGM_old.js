@@ -1,5 +1,5 @@
 /* See  https://developers.google.com/maps/documentation/javascript/examples/ */
-/* for examples using many of the Google Maps options (some mods are needed)  */
+/* for examples using many of the Google Maps options (some mods arevneeded)  */
 
 $(function(){
   
